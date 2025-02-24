@@ -24,7 +24,7 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId() -- We are crea
 
 for i,v in pairs(HWIDTable) do 
 	if v == HWID then
-		loadstring(game:HttpGet('https://pastebin.com/raw/DfKb1WcT'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dinoul/nah-uh-tududuu/refs/heads/main/Protected_7497144740733668.txt'))()
 	elseif v ~= HWID then
 		print("The HWID is not Whitelisted. HWID: ", HWID)
 	end	
